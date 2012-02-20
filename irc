@@ -1,0 +1,2 @@
+#! /bin/bash
+ssh -t peroja@kjempef.in 'screen -rxDU 2125'

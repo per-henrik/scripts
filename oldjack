@@ -1,0 +1,3 @@
+#! /bin/bash
+ssh peroja@oldjack.dyndns.org
+
