@@ -1,0 +1,3 @@
+#!/bin/bash
+args=$@
+growlnotify 'From script...' -sm "$args"

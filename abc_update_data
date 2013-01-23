@@ -1,8 +1,0 @@
-#!/bin/bash
-# mysql (delete tables);
-mysqldump -u abc -pabc --add-drop-table --no-data abcnyheter | grep ^DROP | mysql -u abc -pabc abcnyheter
-
-# download -> unzip -> restore data
-curl http://dev.abcnyheter.no/files/dbdump/drupal6_mysqldump.gz | gunzip |  mysql -u abc -pabc abcnyheter
-
-

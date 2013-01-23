@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh -t pengwen@195.159.219.178 'screen -rxDU'

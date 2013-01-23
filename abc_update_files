@@ -1,2 +1,0 @@
-#!/bin/bash
-rsync -Pvur peroja@devqa-webnyh1.startsiden.dev:/var/www/abcnyheter.no/drupal6/files /Library/WebServer/Documents/abc/abcnyheter-core/

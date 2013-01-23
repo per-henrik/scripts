@@ -1,3 +1,2 @@
 #! /bin/bash
-ssh peroja@178.21.129.176
-
+ssh vds@178.21.129.176
