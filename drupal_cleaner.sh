@@ -8,6 +8,6 @@ drush -y en panels_ipe
 drush -y en panelizer
 drush -y en rules_admin
 drush -y en field_ui
-drush -y ns_footer_content
-drush -y contextual
+drush -y en ns_footer_content
+drush -y en contextual
 drush cc all
