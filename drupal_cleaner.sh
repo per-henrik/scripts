@@ -4,7 +4,6 @@ drush -n dl views
 drush -n dl panels
 drush -n dl panelizer
 drush -n dl rules
-drush -n dl field_ui
 drush -n dl contextual-7.x-2.0-alpha1
 drush -y en devel
 drush -y en devel_generate
