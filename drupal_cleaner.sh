@@ -1,3 +1,15 @@
+drush -n y dl devel
+drush -n dl devel_generate
+drush -n dl admin_menu
+drush -n dis toolbar
+drush -n dl ns_article
+drush -n dl views_ui
+drush -n dl panels_ipe
+drush -n dl panelizer
+drush -n dl rules_admin
+drush -n dl field_ui
+drush -n dl ns_footer_content
+drush -n dl contextual
 drush -y en devel
 drush -y en devel_generate
 drush -y en admin_menu
