@@ -1,0 +1,2 @@
+#! /bin/bash
+HOME=$HOME/Dropbox-WK /Applications/Dropbox.app/Contents/MacOS/Dropbox &
