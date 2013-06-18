@@ -6,6 +6,8 @@ drush -n dl panelizer
 drush -n dl rules
 drush -n dl i18n
 drush -n dl entityreference
+drush -n dl module_filter
+drush -n dl display_suite
 drush -y en devel
 drush -y en devel_generate
 drush -y en admin_menu
@@ -15,6 +17,8 @@ drush -y en panels_ipe
 drush -y en panelizer
 drush -y en rules_admin
 drush -y en field_ui
+drush -y en module_filter
 # drush -y en contextual
+drush -y en display_suite
 drush -y en entityreference
 drush cc all
