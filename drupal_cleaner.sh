@@ -21,4 +21,5 @@ drush -y en module_filter
 # drush -y en contextual
 drush -y en ds ds_ui ds_format ds_search ds_extras
 drush -y en entityreference
+drush -y vset theme_default garland
 drush cc all
