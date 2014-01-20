@@ -1,6 +1,7 @@
 drush -n dl  --destination=sites/all/modules devel
 drush -n dl  --destination=sites/all/modules admin_menu
 drush -n dl  --destination=sites/all/modules views
+drush -n dl  --destination=sites/all/modules admin_views
 drush -n dl  --destination=sites/all/modules panels
 drush -n dl  --destination=sites/all/modules panelizer
 drush -n dl  --destination=sites/all/modules rules
@@ -15,10 +16,11 @@ drush -y en admin_menu
 drush -y dis toolbar
 drush -y en views_ui
 drush -y en panels_ipe
-drush -y en panelizer
+# drush -y en panelizer
 drush -y en rules_admin
 drush -y en field_ui
 drush -y en module_filter
+drush -y en admin_views
 # drush -y en contextual
 drush -y en devel_image_provider
 # drush -y en ds ds_ui ds_format ds_search ds_extras
