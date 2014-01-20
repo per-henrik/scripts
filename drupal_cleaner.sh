@@ -1,14 +1,14 @@
-drush -n dl devel
-drush -n dl admin_menu
-drush -n dl views
-drush -n dl panels
-drush -n dl panelizer
-drush -n dl rules
-drush -n dl i18n
-drush -n dl entityreference
-drush -n dl module_filter
-# drush -n dl ds
-drush -n dl devel_image_provider-7.x-1.x-dev
+drush -n dl  --destination=sites/all/modules devel
+drush -n dl  --destination=sites/all/modules admin_menu
+drush -n dl  --destination=sites/all/modules views
+drush -n dl  --destination=sites/all/modules panels
+drush -n dl  --destination=sites/all/modules panelizer
+drush -n dl  --destination=sites/all/modules rules
+drush -n dl  --destination=sites/all/modules i18n
+drush -n dl  --destination=sites/all/modules entityreference
+drush -n dl  --destination=sites/all/modules module_filter
+# drush -n dl  --destination=sites/all/modules ds
+drush -n dl  --destination=sites/all/modules devel_image_provider-7.x-1.x-dev
 drush -y en devel
 drush -y en devel_generate
 drush -y en admin_menu
