@@ -1,2 +1,0 @@
-#! /bin/bash
-ssh -t peroja@aegir1.wkraut.no 'sudo su aegir; cd /var'
