@@ -8,7 +8,9 @@ drush -n dl  --destination=sites/all/modules rules
 drush -n dl  --destination=sites/all/modules i18n
 drush -n dl  --destination=sites/all/modules entityreference
 drush -n dl  --destination=sites/all/modules module_filter
+drush -n dl  --destination=sites/all/themes shiny
 # drush -n dl  --destination=sites/all/modules ds
+drush -y dis overlay
 drush -n dl  --destination=sites/all/modules devel_image_provider-7.x-1.x-dev
 drush -y en devel
 drush -y en devel_generate
@@ -26,4 +28,5 @@ drush -y en devel_image_provider
 # drush -y en ds ds_ui ds_format ds_search ds_extras
 drush -y en entityreference
 drush -y vset theme_default garland
+drush vset admin_theme shiny
 drush cc all
