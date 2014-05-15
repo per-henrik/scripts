@@ -28,5 +28,5 @@ drush -y en devel_image_provider
 # drush -y en ds ds_ui ds_format ds_search ds_extras
 drush -y en entityreference
 drush -y vset theme_default garland
-drush vset admin_theme shiny
+drush -y vset admin_theme shiny
 drush cc all
