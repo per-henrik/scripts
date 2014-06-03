@@ -1,2 +1,3 @@
 #!/bin/bash
-grep -A1 -B-1 per.henrik.oja  ~/WK_auth/helsinki-vpn.txt
+grep -A1 per.henrik.oja  ~/WK_auth/helsinki-vpn.txt | grep Password | sed s/'Password: '// | tr -d '\n\r' | pbcopy
+echo "Password in Pasteboard (the Clipboard)"
