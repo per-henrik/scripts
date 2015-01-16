@@ -1,2 +1,8 @@
 #! /bin/bash
-ping 195.159.0.100 | cut -f 7 -d " "
+while :
+do
+  ping=$(ping -o 195.159.0.100 | grep from| cut -f 7 -d " "| cut -f 2 -d "="| sed 's/....$//')
+  dato=$(date +'%H:%M:%S')
+  echo "$dato $ping""ms"
+  sleep 1
+done
