@@ -1,2 +1,2 @@
 #!/bin/bash
-ssh peroja@stage.wunder.no
+ssh peroja@mammanett.stage.wunder.no
