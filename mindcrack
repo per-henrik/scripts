@@ -1,3 +1,3 @@
 #! /bin/bash
 #ssh -t mindcrack@kjempef.in 
-ssh -t mindcrack@kjempef.in 'screen -Dr'
+ssh -t mindcrack@oja.no 'screen -Dr'
