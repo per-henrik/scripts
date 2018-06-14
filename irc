@@ -1,2 +1,2 @@
 #! /bin/bash
-ssh -p 443 -t peroja@oja.no 'screen -UrxD irc'
+ssh -p 22 -t peroja@oja.no 'screen -UrxD irc'

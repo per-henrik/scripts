@@ -1,3 +1,2 @@
 #! /bin/bash
-ssh peroja@oja.no -p 443
-
+ssh peroja@oja.no -p 22
