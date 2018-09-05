@@ -1,2 +1,0 @@
-#!/bin/bash
-ssh root@ngbc.wkdev.lv -p 8400

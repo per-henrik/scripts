@@ -1,4 +1,0 @@
-#!/bin/bash
-ssh per@plex.oja.no 'screencapture -x /tmp/screenshot.png'
-scp per@plex.oja.no:/tmp/screenshot.png /tmp
-open /tmp/screenshot.png

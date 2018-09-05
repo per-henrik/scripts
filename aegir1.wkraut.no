@@ -1,3 +1,0 @@
-#! /bin/bash
-ssh peroja@aegir1.wkraut.no
-

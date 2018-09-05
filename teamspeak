@@ -1,3 +1,0 @@
-#! /bin/bash
-#ssh -t mindcrack@kjempef.in 
-ssh -t mindcrack@kjempef.in 'screen -Dr'
