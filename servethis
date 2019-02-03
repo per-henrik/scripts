@@ -1,0 +1,3 @@
+#! /bin/bash
+echo "Wants your password because the server wants to use port 80"
+sudo python -m SimpleHTTPServer 80
