@@ -1,0 +1,3 @@
+#! /bin/bash
+cd ~/dev/hugo/docs
+hugo server -D -b http://localhost -p1234
