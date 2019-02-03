@@ -4,6 +4,6 @@ do
   ping=$(ping -o 1.1.1.1 | grep from| cut -f 7 -d " "| cut -f 2 -d "="| sed 's/....$//')
   dato=$(date +'%H:%M:%S')
   echo "$dato $ping""ms"
-  sleep 2
+  sleep 1
 done
 
